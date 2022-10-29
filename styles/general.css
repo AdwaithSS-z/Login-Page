@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(0, 120, 42);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.temp1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    width: 350px;
+    padding: 40px;
+    border-radius: 27px;
+}
+.sign-in {
+    font-family: Roboto;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.username,
+.password {
+    padding: 7px;
+    font-family: Roboto;
+    font-size: 15px;
+    border-radius: 8px;
+    margin: 10px 10px 5px 0px;
+    width: 300px;
+    height: 40px;
+    border-color: white;
+    outline-color: rgb(0, 105, 224);
+    border-style: solid;
+    border-color: gray;
+    border-width: 2px;
+    font-weight: bold;
+}
+.buttons-log {
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+    width: 500px;
+    height: 40px;
+    margin-bottom: 40px;
+}
+.login,
+.signup {
+    font-family: Roboto;
+    margin-right: 30px;
+    border-radius: 7px;
+    width: 100px;
+    font-size: 14px;
+}
+.login {
+    background-color: rgb(0, 105, 224);
+    color: white;
+    border-color: rgb(0, 105, 224);
+    border-style: solid;
+}
+.signup {
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(0, 105, 224);
+    color: rgb(0, 105, 224);
+}
