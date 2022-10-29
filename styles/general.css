@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(0, 120, 42);
+    background-image: url(4k-bg.jpg);
+    background-size: cover;
     margin-left: 20px;
     margin-top: 20px;
 }
