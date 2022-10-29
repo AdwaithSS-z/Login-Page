@@ -10,12 +10,22 @@ body {
     background-color: white;
     width: 350px;
     padding: 40px;
-    border-radius: 27px;
+    border-radius: 22px;
+    justify-content: center;
 }
 .sign-in {
     font-family: Roboto;
+    font-weight: bolder;
+    display: flex;
+    font-family: Roboto;
     font-size: 28px;
     margin-bottom: 30px;
+    justify-content: center;
+}
+.input-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .username,
 .password {
@@ -32,14 +42,39 @@ body {
     border-color: gray;
     border-width: 2px;
     font-weight: bold;
+    transition: 0.15s;
+}
+.checkbox-forgot-password {
+    display: flex;
+    flex-direction: row;
+    font-family: Roboto;
+    font-size: 14px;
+    margin-top: 15px;
+    color: green;
+    justify-content: center;
+}
+.stay {
+    font-family: Roboto;
+    font-weight: bold;
+    cursor: pointer;
+}
+.for-password {
+    margin-left: 100px;
+    font-family: Roboto;
+    color: green;
+    cursor: pointer;
+    transition: 0.15s;
+}
+.for-password:hover {
+    color: rgb(0, 158, 0);
 }
 .buttons-log {
     display: flex;
     flex-direction: row;
     margin-top: 45px;
-    width: 500px;
     height: 40px;
     margin-bottom: 40px;
+    justify-content: center;
 }
 .login,
 .signup {
@@ -48,6 +83,9 @@ body {
     border-radius: 7px;
     width: 100px;
     font-size: 14px;
+    cursor: pointer;
+    transition: 0.15s;
+    font-weight: bold;
 }
 .login {
     background-color: rgb(0, 105, 224);
@@ -55,9 +93,21 @@ body {
     border-color: rgb(0, 105, 224);
     border-style: solid;
 }
+.login:hover {
+    background-color: rgb(0, 111, 238);
+}
 .signup {
     background-color: white;
     border-style: solid;
     border-color: rgb(0, 105, 224);
     color: rgb(0, 105, 224);
+}
+.signup:hover {
+    background-color: rgb(246, 246, 246);
+}
+.login:active {
+    background-color: rgb(0, 116, 248);
+}
+.signup:active {
+    background-color: white;
 }
