@@ -1,8 +1,9 @@
 body {
-    background-image: url(4k-bg.jpg);
+    background-image: url(pexels-pixmike.jpg);
     background-size: cover;
     margin-left: 0px;
     margin-top: 0px;
+    overflow: hidden;
 }
 .temp1 {
     display: flex;
@@ -13,8 +14,6 @@ body {
     position: absolute;
     height: 100%;
     opacity: 0.9;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
 }
 .sign-in {
     font-family: Roboto;
@@ -114,4 +113,12 @@ body {
 }
 .signup:active {
     background-color: white;
+}
+.terms-conditions {
+    font-family: Roboto;
+    font-size: 13px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 72%;
+    color: gray;
 }
